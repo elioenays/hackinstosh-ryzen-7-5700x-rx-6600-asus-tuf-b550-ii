@@ -239,10 +239,10 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>AQAAAA==</data>
+				<data>BwAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -616,7 +616,7 @@
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>uAgAAAAA</data>
+				<data>uggAAAAA</data>
 				<key>ReplaceMask</key>
 				<data>//////8A</data>
 				<key>Skip</key>
@@ -646,7 +646,7 @@
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>uAgAAAAA</data>
+				<data>uggAAACQ</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -676,7 +676,7 @@
 				<key>MinKernel</key>
 				<string>22.4.0</string>
 				<key>Replace</key>
-				<data>ugAAAAA=</data>
+				<data>uggAAAA=</data>
 				<key>ReplaceMask</key>
 				<data>//////8=</data>
 				<key>Skip</key>
@@ -1386,7 +1386,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1405,248 +1405,6 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>BootKicker.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>BootKicker.efi</string>
-				<key>Path</key>
-				<string>BootKicker.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>ChipTune.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>ChipTune.efi</string>
-				<key>Path</key>
-				<string>ChipTune.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>CleanNvram.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>CleanNvram.efi</string>
-				<key>Path</key>
-				<string>CleanNvram.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>ControlMsrE2.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>ControlMsrE2.efi</string>
-				<key>Path</key>
-				<string>ControlMsrE2.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>CsrUtil.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>CsrUtil.efi</string>
-				<key>Path</key>
-				<string>CsrUtil.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>FontTester.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>FontTester.efi</string>
-				<key>Path</key>
-				<string>FontTester.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>GopStop.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>GopStop.efi</string>
-				<key>Path</key>
-				<string>GopStop.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>KeyTester.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>KeyTester.efi</string>
-				<key>Path</key>
-				<string>KeyTester.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>ListPartitions.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>ListPartitions.efi</string>
-				<key>Path</key>
-				<string>ListPartitions.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>MmapDump.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>MmapDump.efi</string>
-				<key>Path</key>
-				<string>MmapDump.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>OpenControl.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>OpenControl.efi</string>
-				<key>Path</key>
-				<string>OpenControl.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
 				<string>OpenShell.efi</string>
 				<key>Enabled</key>
 				<true/>
@@ -1658,72 +1416,6 @@
 				<string>OpenShell.efi</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>ResetSystem.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>ResetSystem.efi</string>
-				<key>Path</key>
-				<string>ResetSystem.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>RtcRw.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>RtcRw.efi</string>
-				<key>Path</key>
-				<string>RtcRw.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>TpmInfo.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>TpmInfo.efi</string>
-				<key>Path</key>
-				<string>TpmInfo.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
@@ -1754,7 +1446,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 npci=0x2000 agdpmod=pikera	</string>
+				<string>debug=0x100 -v keepsyms=1 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1952,18 +1644,6 @@
 				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>OpenCanopy.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>OpenCanopy.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
